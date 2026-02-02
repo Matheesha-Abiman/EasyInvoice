@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "EasyInvoice",
-    "slug": "EasyInvoice",
+    "slug": "easyinvoice",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,28 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": ".",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.matheesha_abiman.easyinvoice"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7f0de8c0-b632-4bab-9e7d-4d7c45288f3d"
+      }
+    },
+    "owner": "matheesha_abiman"
   }
 }
