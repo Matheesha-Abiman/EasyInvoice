@@ -1,6 +1,6 @@
 # 📱 EasyInvoice – Mobile Billing App
 
-**EasyInvoice** is a cross-platform mobile application built using **React Native (Expo)** and **Firebase**.  
+**EasyInvoice** is a cross-platform mobile application built using **React Native (Expo + TypeScript)** and **Firebase**.  
 It helps users create, manage, and share invoices quickly in a simple and user-friendly way.
 
 This project was developed as the **Final Project for ITS 2127 – Advanced Mobile Developer (AMD)**.
@@ -49,18 +49,14 @@ Users can add, update, and remove items easily.
 
 | Technology | Purpose |
 |-----------|---------|
-| React Native (Expo) | Cross-platform mobile development |
-| Firebase Authentication | User login & registration |
-| Cloud Firestore | Store bills and items |
-| React Navigation | App navigation |
-| React Context API | State management |
-| Expo Print | Convert invoice HTML to PDF |
-| Expo File System | Save PDF locally |
-| Expo Sharing | Share PDF using device apps |
+| **React Native (Expo)** | Cross-platform mobile development |
+| **TypeScript** | Type-safe JavaScript development |
+| **Firebase Authentication** | User login & registration |
+| **Cloud Firestore** | Store bills and items |
+| **React Navigation** | App navigation |
+| **React Context API** | State management |
+| **Expo Print** | Convert invoice HTML to PDF |
+| **Expo File System** | Save PDF locally |
+| **Expo Sharing** | Share PDF using device apps |
 
 ---
-
-## 🗂️ Firestore Database Structure
-
-### Collection: `bills`
-
